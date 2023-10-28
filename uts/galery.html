@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<title>
+    Galery
+</title>
+<body>
+    <p>
+        THIS IS MY GALERY
+    </p>
+    <img src="files/• 𝘍𝘳𝘪𝘦𝘳𝘦𝘯 (3).jfif">
+    <img src="files/download (3).jfif">
+    <img src="files/Frieren.jfif">
+    <br>
+        <br>
+    <video id="video1" width="420">
+        <source src="files/TheForest 2022-12-30 18-58-57.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+    </video>
+    <br>
+    <button onclick="playPause()">Play/Pause</button> 
+    <button>
+        <a href="index.html">Back</a>
+    </button>
+</body>
+
+<script> 
+    var myVideo = document.getElementById("video1"); 
+    
+    function playPause() { 
+      if (myVideo.paused) 
+        myVideo.play(); 
+      else 
+        myVideo.pause(); 
+    } 
+    
+    </script> 
+</html>
