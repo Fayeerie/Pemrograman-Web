@@ -2,8 +2,9 @@
 <title>
     HOME
 </title>
+<link rel="stylesheet" type="text/css" href="style2.css">
 <body>
-    <h1>WELCOME TO MY HOME</h1>
+    <h1>THIS IS MY HOME</h1>
     <p>
 
     </p>
@@ -11,5 +12,20 @@
     <button>
         <a href="index.html">Back</a>
     </button>
+    <dialog>
+        <p>This is my home, klik untuk menutup</p>
+        <button id="close">Close Dialog</button>
+      </dialog>
+      <button id="show">klik untuk menampilkan dialog box</button>
+  
+      <script>
+        var dialog = document.querySelector("dialog");
+        document.querySelector("#show").onclick = function () {
+          dialog.show();
+        };
+        document.querySelector("#close").onclick = function () {
+          dialog.close();
+        };
+      </script>
 </body>
 </html>

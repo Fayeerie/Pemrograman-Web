@@ -1,0 +1,9 @@
+body{
+    top: 50%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-align:center; 
+    position:absolute; 
+    width: 100%; 
+    height: auto;
+    background-color: rgb(247, 154, 242);
+    }

@@ -1,0 +1,10 @@
+ ol{ 
+    top: 25%;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    text-align:left; 
+    position:absolute; 
+    width: 100%; 
+    height: auto;
+    background-color: rgb(92, 124, 230);
+    }
+
